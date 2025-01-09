@@ -2,20 +2,35 @@
 
 **Wiki** is a simple Wikipedia-like online encyclopedia created as part of **[CS50's Web Programming with Python and JavaScript](https://cs50.harvard.edu/web/2020/)** course.  It allows users to view, create, edit, search, and navigate through encyclopedia entries. Entries are stored in Markdown format and are converted to HTML for rendering.
 
+## About the Project
+
+In this project, I built a basic online encyclopedia with the following features:
+
+- **Viewing Entries**: Users can visit an entry page and see the content of an encyclopedia entry.
+- **Searching**: Users can search for entries by title or by keywords, displaying relevant results.
+- **Creating Entries**: Users can create new encyclopedia entries, writing content in Markdown format.
+- **Editing Entries**: Users can edit existing entries and save the changes.
+- **Random Entry**: Users can view a random entry from the encyclopedia.
+- **Markdown to HTML Conversion**: Each entry is written in Markdown, which is converted to HTML when displayed.
+
+The project uses Django for backend development, ensuring smooth functionality for user interactions and data management.
+
 ## Features
 
-- **Entry Pages**: View individual entries by visiting `/wiki/TITLE`.
-- **Index Page**: Displays a list of all encyclopedia entries with clickable titles.
-- **Search**: Search for entries by name or substring.
-- **Create New Page**: Users can create new encyclopedia entries using Markdown content.
-- **Edit Pages**: Edit existing entries with pre-populated Markdown content.
-- **Random Page**: Navigate to a random encyclopedia entry.
-- **Markdown to HTML Conversion**: Converts Markdown content into HTML for rendering.
+- **View Entries**: Browse through existing encyclopedia entries by visiting their unique URL.
+- **Search**: Search for entries by title or by keywords within the content.
+- **Create New Entry**: Create a new entry by entering a title and content in Markdown format.
+- **Edit Entries**: Modify the content of existing entries using a Markdown editor.
+- **Random Entry**: Click a button to view a random article from the encyclopedia.
+- **Markdown Rendering**: Markdown content is automatically converted into HTML for proper display.
 
-## Technologies Used 
-- **Django**  
-- **HTML/CSS**  
-- **Markdown** 
+## Technologies Used
+
+- **Python**
+- **Django**
+- **HTML/CSS**
+- **Markdown (for entry content)**
+- **SQLite** (for database storage)
 
 ## Setup and Installation
 
